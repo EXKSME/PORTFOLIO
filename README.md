@@ -51,7 +51,8 @@ npm run deploy:api
 ```
 
 ## 待办事项
-- 主页左下角图标更新：ins、网易云、【？】
+- 主页左下角图标更新：ins、【behance】图标、网易云
+- 【use page】【make mods】两个页面的连接
 - 把原作者的作品都替换了
 - 左上角logo
 - tab页logo、标题名称

@@ -111,10 +111,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="街头风格服装设计"
+        description="对街头新锐品牌进行二次创作，融入自己的理解与并尝试创新"
+        buttonText="查看更多"
+        buttonLink="/404"
         model={{
           type: 'phone',
           alt: 'App login screen',

@@ -21,16 +21,16 @@ export const socialLinks = [
   {
     label: 'Instagram',
     url: 'https://www.instagram.com/exksme/',
-    icon: 'twitter',
+    icon: 'instagram',
   },
   {
-    label: 'Figma',
-    url: '/404',
-    icon: 'figma',
+    label: 'Behance',
+    url: 'https://www.behance.net/84230415845db',
+    icon: 'behance',
   },
   {
     label: 'Github',
-    url: '/404',
+    url: 'https://github.com/EXKSME',
     icon: 'github',
   },
 ];
