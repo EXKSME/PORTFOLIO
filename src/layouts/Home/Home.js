@@ -18,7 +18,13 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['软件测试工程师', '服装设计师', '视频创作者', 'DJ', '不被定义者'];
+const disciplines = [
+  '软件测试工程师',
+  '服装设计师',
+  '视频创作者',
+  'DJ Mixer',
+  '平面创作者',
+];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -67,10 +73,7 @@ export const Home = () => {
 
   return (
     <div className={styles.home}>
-      <Meta
-        title="Home Page"
-        description="XUHAIXIANG | EXKSM 的作品集及个人网站."
-      />
+      <Meta title="Home Page" description="XUHAIXIANG | EXKSM 的作品集及个人网站." />
       <Intro
         id="intro"
         sectionRef={intro}
