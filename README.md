@@ -50,6 +50,16 @@ cd functions
 npm run deploy:api
 ```
 
+## 待办事项
+- 主页左下角图标更新：ins、网易云、【？】
+- 把原作者的作品都替换了
+- 左上角logo
+- tab页logo、标题名称
+
+
+
+
+
 ## Permissions
 
 I'm cool with anyone using the code or parts of the code for their own site, it is open source so people can learn from it and adapt it. However, I would encourage you to modify the theme and components it to make it your own. If you are using the site's design largely unmodified, I'd appreciate being credited as the designer of the website.

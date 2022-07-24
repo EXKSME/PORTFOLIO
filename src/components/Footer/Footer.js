@@ -7,10 +7,10 @@ export const Footer = ({ className }) => (
   <footer className={classes(styles.footer, className)}>
     <Text size="s" align="center">
       <span className={styles.date}>
-        {`© ${new Date().getFullYear()} Hamish Williams.`}
+        {`© ${new Date().getFullYear()} EXKSM.`}
       </span>
       <Link secondary className={styles.link} href="/humans.txt" target="_self">
-        Crafted by yours truly
+        这里要替换
       </Link>
     </Text>
   </footer>

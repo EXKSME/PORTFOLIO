@@ -36,11 +36,11 @@ export function Page404() {
                   as="h2"
                   level={3}
                 >
-                  <DecoderText text="Error: Redacted" start={visible} delay={300} />
+                  <DecoderText text="Error: Not Found" start={visible} delay={300} />
                 </Heading>
                 <Text className={styles.description} data-visible={visible} as="p">
-                  This page could not be found. It either doesn’t exist or was deleted. Or
-                  perhaps you don’t exist.
+                  这个页面我还没写好 🤫 <br/>
+                  就快好了~
                 </Text>
                 <Button
                   secondary
@@ -50,7 +50,7 @@ export function Page404() {
                   href="/"
                   icon="chevronRight"
                 >
-                  Back to homepage
+                  回到主页
                 </Button>
               </div>
             </div>

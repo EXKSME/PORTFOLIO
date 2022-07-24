@@ -19,18 +19,18 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
+    label: 'Instagram',
+    url: 'https://www.instagram.com/exksme/',
     icon: 'twitter',
   },
   {
     label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
+    url: '/404',
     icon: 'figma',
   },
   {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: '/404',
     icon: 'github',
   },
 ];

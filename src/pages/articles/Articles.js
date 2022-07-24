@@ -129,7 +129,7 @@ const SkeletonPost = ({ index }) => {
           />
           <div className={styles.postFooter}>
             <Button secondary iconHoverShift icon="chevronRight" as="div">
-              Read more
+              查看更多
             </Button>
             <Text className={styles.timecode} size="s">
               00:00:00:00
@@ -174,7 +174,7 @@ export const Articles = ({ posts, featured }) => {
   return (
     <article className={styles.articles}>
       <Meta
-        title="Articles"
+        title="相关文章"
         description="A collection of technical design and development articles. May contain incoherent ramblings."
       />
       <Section className={styles.content}>

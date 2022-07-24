@@ -191,6 +191,7 @@ function getStatusError({
   const statuses = {
     500: 'There was a problem with the server, try again later',
     404: 'There was a problem connecting to the server. Make sure you are connected to the internet',
+    200: 'Success'
   };
 
   if (errorMessage) {
