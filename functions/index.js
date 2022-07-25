@@ -74,10 +74,10 @@ app.post('/message', async (req, res) => {
       },
     });
 
-    return res.status(200).json({ message: 'Message sent successfully' });
+    return res.status(200).json({ message: '邮件成功发送' });
   } catch (error) {
     console.error('Rejected', error);
-    return res.status(500).json({ error: 'Message rejected' });
+    return res.status(500).json({ error: '邮件发送失败' });
   }
 });
 

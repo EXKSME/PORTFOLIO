@@ -145,7 +145,7 @@ export const Navbar = () => {
         <a
           data-navbar-item
           className={styles.logo}
-          aria-label="Hamish Williams, Designer"
+          aria-label="Haixiang Xu, Designer"
           onClick={handleMobileNavClick}
         >
           <Monogram highlight />
@@ -199,6 +199,7 @@ export const Navbar = () => {
   );
 };
 
+// 左下角社交软件图标
 const NavbarIcons = ({ desktop }) => (
   <div className={styles.navIcons}>
     {socialLinks.map(({ label, url, icon }) => (

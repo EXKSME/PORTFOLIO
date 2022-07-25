@@ -2,21 +2,37 @@
 
 [![Site preview](/public/site-preview.png)](https://hamishw.com)
 
-My design portfolio to showcase a few projects. Built with [Next.js](https://nextjs.org/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://hamishw.com) or check out a live version of the [components storybook](https://storybook.hamishw.com).
+我的个人作品集网站
 
-## Install & run
+Template from [HamishMW/portfolio](https://github.com/HamishMW/portfolio)
 
-Make sure you have nodejs `18.0.0` or higher and npm `8.6.0` or higher installed. Install dependencies with:
+## Install & run | 安装与启动
+
+需要 nodejs `18.0.0` 以上，npm `8.6.0` 以上
+
+Make sure you have nodejs `18.0.0` or higher and npm `8.6.0` or higher installed.
+
+ </br>
+安装依赖包：
+
+Install dependencies with:
 
 ```bash
 npm install
 ```
 
-Once it's done start up a local server with:
+</br>
+在本地启动项目：
+
+Launch Project on Loacl Server:
 
 ```bash
 npm run dev
 ```
+
+</br>
+
+查看组件`storybook`:
 
 To view the components storybook:
 
@@ -24,21 +40,27 @@ To view the components storybook:
 npm run storybook
 ```
 
+</br>
+打包项目：
+
 To create a production build:
 
 ```bash
 npm run build
 ```
 
-## Deployment
+## Deployment | 部署
 
-I've set up the site using AWS for hosting and serverless functions. You'll need an AWS account and the AWS CLI installed in order to deploy.
+部署项目：
 
-Deploy the site to s3:
+Deploy the site:
 
 ```bash
 npm run deploy
 ```
+
+</br>
+部署无服务功能：
 
 Deploy serverless functions:
 
@@ -51,15 +73,12 @@ npm run deploy:api
 ```
 
 ## 待办事项
+
 - 主页左下角图标更新：ins、【behance】图标、网易云
 - 【use page】【make mods】两个页面的连接
 - 把原作者的作品都替换了
-- 左上角logo
-- tab页logo、标题名称
-
-
-
-
+- 左上角 logo
+- tab 页 logo、标题名称
 
 ## Permissions
 
