@@ -84,7 +84,7 @@ const ArticlesPost = ({
             </Text>
             <div className={styles.postFooter}>
               <Button secondary iconHoverShift icon="chevronRight" as="div">
-                Read article
+                查阅文章
               </Button>
               <Text className={styles.timecode} size="s">
                 {timecode}
@@ -95,7 +95,7 @@ const ArticlesPost = ({
       </RouterLink>
       {featured && (
         <Text aria-hidden className={styles.postTag} size="s">
-          477
+          0301
         </Text>
       )}
     </article>
