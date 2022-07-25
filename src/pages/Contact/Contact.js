@@ -79,7 +79,7 @@ export const Contact = () => {
               as="h1"
               style={getDelay(tokens.base.durationXS, initDelay, 0.3)}
             >
-              <DecoderText text="Say hello" start={status !== 'exited'} delay={300} />
+              <DecoderText text="Say Halo 🙌🏻" start={status !== 'exited'} delay={300} />
             </Heading>
             <Divider
               className={styles.divider}
@@ -92,7 +92,7 @@ export const Contact = () => {
               data-status={status}
               style={getDelay(tokens.base.durationXS, initDelay)}
               autoComplete="email"
-              label="Your Email"
+              label="您的邮箱"
               type="email"
               maxLength={512}
               {...email}
@@ -104,7 +104,7 @@ export const Contact = () => {
               data-status={status}
               style={getDelay(tokens.base.durationS, initDelay)}
               autoComplete="off"
-              label="Message"
+              label="留言内容"
               maxLength={4096}
               {...message}
             />
@@ -137,7 +137,7 @@ export const Contact = () => {
               icon="send"
               type="submit"
             >
-              Send message
+              发 送 您 的 消 息
             </Button>
           </form>
         )}
@@ -171,7 +171,7 @@ export const Contact = () => {
               href="/"
               icon="chevronRight"
             >
-              Back to homepage
+              回到主页
             </Button>
           </div>
         )}
@@ -191,7 +191,7 @@ function getStatusError({
   const statuses = {
     500: 'There was a problem with the server, try again later',
     404: 'There was a problem connecting to the server. Make sure you are connected to the internet',
-    200: 'Success'
+    200: 'Success',
   };
 
   if (errorMessage) {
