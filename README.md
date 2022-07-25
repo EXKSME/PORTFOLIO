@@ -6,6 +6,21 @@
 
 Template from [HamishMW/portfolio](https://github.com/HamishMW/portfolio)
 
+</br>
+
+## 开发日志：
+
+- 2022-7-25:
+
+  - 服务器已下载并解压好 nodejs 18.6.0
+  - node-v18.6.0-linux-x64 已改名为 nodejs
+  - 需要更新 centos 的 glibc
+  - 更新 npm 到 8.6.0
+
+  </br>
+
+---
+
 ## Install & run | 安装与启动
 
 需要 nodejs `18.0.0` 以上，npm `8.6.0` 以上
