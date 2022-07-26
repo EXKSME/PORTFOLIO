@@ -101,12 +101,7 @@ export const SmartSparrow = () => {
           srcSet={`${backgroundSpr.src} 1080w, ${backgroundSprLarge.src} 2160w`}
           placeholder={backgroundSprPlaceholder}
         />
-        <ProjectHeader
-          title={title}
-          description={description}
-          url="https://www.smartsparrow.com/"
-          roles={roles}
-        />
+        <ProjectHeader title={title} description={description} url="/" roles={roles} />
         <ProjectSection padding="top">
           <ProjectSectionContent>
             <ProjectImage
