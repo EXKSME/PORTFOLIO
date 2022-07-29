@@ -161,7 +161,7 @@ export const Articles = ({ posts, featured }) => {
       {posts.map(({ slug, ...post }, index) => (
         <ArticlesPost key={slug} slug={slug} index={index} {...post} />
       ))}
-      {Array(2)
+      {Array(4)
         .fill()
         .map((skeleton, index) => (
           <SkeletonPost key={index} />
