@@ -85,10 +85,10 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="商场 UI 设计"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        title="NFT商城 UI 设计"
+        description="基于 emoji-NFT 项目设计的商场界面UI"
+        buttonText="查看项目"
+        buttonLink="/projects/nft-store"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -108,7 +108,7 @@ export const Home = () => {
         index={2}
         title="街头风格服装设计"
         description="对街头新锐品牌进行二次创作，融入自己的理解与并尝试创新"
-        buttonText="查看更多"
+        buttonText="查看项目"
         buttonLink="/404"
         model={{
           type: 'phone',
@@ -132,7 +132,7 @@ export const Home = () => {
         index={3}
         title="Biomedical image collaboration"
         description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
+        buttonText="查看项目"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
