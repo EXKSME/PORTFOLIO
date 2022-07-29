@@ -122,11 +122,12 @@ npm run deploy:api
 
 ## 待办事项
 
-- 主页左下角图标更新：ins、【behance】图标、网易云
+- 主页左下角图标更新：ins、网易云
 - 【use page】【make mods】两个页面的连接
 - 把原作者的作品都替换了
-- 左上角 logo
 - tab 页 logo、标题名称
+- Artile页把大的换成网站的诞生
+- 小的换成开发记录、logo设计、名称由来
 
 ## Permissions
 
