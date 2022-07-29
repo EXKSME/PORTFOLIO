@@ -19,6 +19,7 @@ Template from [HamishMW/portfolio](https://github.com/HamishMW/portfolio)
     使用宝塔的终端终于把glibc升级成功
 
   - npm run build报错：webpack error
+  - 更新了dependencies依赖包的等级后打包成功
 
     </br>
 
