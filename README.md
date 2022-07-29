@@ -18,6 +18,8 @@ Template from [HamishMW/portfolio](https://github.com/HamishMW/portfolio)
 
     使用宝塔的终端终于把glibc升级成功
 
+  - npm run build报错：webpack error
+
     </br>
 
 - 2022-7-28:#服务器升级
@@ -131,6 +133,9 @@ npm run deploy:api
 - tab 页 logo、标题名称
 - Artile页把大的换成网站的诞生
 - 小的换成开发记录、logo设计、名称由来
+- 未用网页：
+      {/* <Link href="/uses">uses page</Link> */}
+      {/* <Link href="/projects/volkihar-knight">make mods</Link> */}
 
 ## Permissions
 

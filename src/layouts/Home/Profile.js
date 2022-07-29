@@ -24,9 +24,6 @@ const ProfileText = ({ visible, titleId }) => (
       我是 徐海翔, 最近在{' '}<Link href="https://www.lixiang.com/one.html">理想汽车</Link>
       常州总部 担任测试工程师. 
       我的项目作品包含：服装设计、UI/UX设计、视频创作、3D建模与渲染 以及 其他视觉创意作品.
-      
-      {/* <Link href="/uses">uses page</Link> */}
-      {/* <Link href="/projects/volkihar-knight">make mods</Link> */}
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       这是我的个人网站 V 0.1 版本.

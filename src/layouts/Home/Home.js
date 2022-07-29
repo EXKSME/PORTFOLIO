@@ -89,7 +89,6 @@ export const Home = () => {
         description="基于 emoji-NFT 项目设计的商场界面UI"
         buttonText="查看项目"
         buttonLink="/projects/nft-store"
-        // 这里的nft-store 还没有文件 只是定向到了
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
