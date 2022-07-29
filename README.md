@@ -10,7 +10,20 @@ Template from [HamishMW/portfolio](https://github.com/HamishMW/portfolio)
 
 ## 开发日志：
 
-- 2022-7-25:
+- 2022-7-29:#服务器升级
+
+  - 升级glibc 2.31 一直报python不存在的错，可能是gcc升级版本太高了（9.3.0）
+  - 正在降级gcc至7.5.0
+
+    </br>
+
+- 2022-7-28:#服务器升级
+
+  - 通过宝塔面板的Node.js版本管理器升级了Nodejs18.0.0和npm 8.6.0
+
+    </br>
+
+- 2022-7-25:#服务器升级
 
   - 服务器已下载并解压好 nodejs 18.6.0
   - node-v18.6.0-linux-x64 已改名为 nodejs
@@ -18,6 +31,26 @@ Template from [HamishMW/portfolio](https://github.com/HamishMW/portfolio)
   - 更新 npm 到 8.6.0
 
   </br>
+
+- 2022-7-24: #服务器升级
+
+  - 升级完gdb、make、python 2.7.4、Python 3.8.0
+  - gcc升级至9.3.0
+  - 预编译glibc一直报错
+
+  </br>
+
+- 2022-7-23: #项目初始化
+
+  - fork项目
+  - 升级本地Nodejs与npm
+  - 安装项目依赖包
+  - 启动项目预览
+  - 修复contact页与uses页link404问题
+  - 填充修改自己的内容
+
+  </br>
+
 
 ---
 
