@@ -85,10 +85,11 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="NFT商城 UI 设计"
+        title="UI Design | 人机交互"
         description="基于 emoji-NFT 项目设计的商场界面UI"
         buttonText="查看项目"
         buttonLink="/projects/nft-store"
+        // 这里的nft-store 还没有文件 只是定向到了
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -106,10 +107,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="街头风格服装设计"
+        title="RE-FUSION | 重塑"
         description="对街头新锐品牌进行二次创作，融入自己的理解与并尝试创新"
         buttonText="查看项目"
-        buttonLink="/404"
+        buttonLink="/projectes/fashion_re-fusion"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -130,10 +131,10 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Remix & Inovate"
+        description="探索经典音乐作品融合全新风格与尝试"
         buttonText="查看项目"
-        buttonLink="/projects/slice"
+        buttonLink="/projects/remix"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',

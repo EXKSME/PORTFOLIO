@@ -24,14 +24,13 @@ const ProfileText = ({ visible, titleId }) => (
       我是 徐海翔, 最近在{' '}<Link href="https://www.lixiang.com/one.html">理想汽车</Link>
       常州总部 担任测试工程师. 
       我的项目作品包含：服装设计、UI/UX设计、视频创作、3D建模与渲染 以及 其他视觉创意作品.
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      
+      {/* <Link href="/uses">uses page</Link> */}
+      {/* <Link href="/projects/volkihar-knight">make mods</Link> */}
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      这是我的个人网站 V 0.1 版本.
+      更新日期：2022-7-29
     </Text>
   </Fragment>
 );

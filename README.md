@@ -13,7 +13,10 @@ Template from [HamishMW/portfolio](https://github.com/HamishMW/portfolio)
 - 2022-7-29:#服务器升级
 
   - 升级glibc 2.31 一直报python不存在的错，可能是gcc升级版本太高了（9.3.0）
-  - 正在降级gcc至7.5.0
+  - 降级gcc至7.5.0
+  - 发现无法make glibc-2.31是因为在腾讯的webshell里 识别不到python
+
+    使用宝塔的终端终于把glibc升级成功
 
     </br>
 
