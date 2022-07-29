@@ -131,10 +131,10 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Remix & Inovate"
-        description="探索经典音乐作品融合全新风格与尝试"
+        title="Cyberlife | 赛博"
+        description="真人版赛博朋克视频创作"
         buttonText="查看项目"
-        buttonLink="/projects/remix"
+        buttonLink="/projects/Cyberlife"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
