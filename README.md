@@ -2,7 +2,7 @@
 
 [![Site preview](/public/site-preview.png)](https://hamishw.com)
 
-我的个人作品集网站
+我的个人作品集网站：www.exkillsme.com
 
 Template from [HamishMW/portfolio](https://github.com/HamishMW/portfolio)
 
