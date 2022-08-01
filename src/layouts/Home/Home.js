@@ -88,7 +88,7 @@ export const Home = () => {
         title="UI Design | 人机交互"
         description="基于 emoji-NFT 项目设计的商场界面UI"
         buttonText="查看项目"
-        buttonLink="/projects/nft-store"
+        buttonLink="/404"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -109,7 +109,7 @@ export const Home = () => {
         title="RE-FUSION | 重塑"
         description="对街头新锐品牌进行二次创作，融入自己的理解与并尝试创新"
         buttonText="查看项目"
-        buttonLink="/projectes/fashion_re-fusion"
+        buttonLink="/404"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -133,7 +133,7 @@ export const Home = () => {
         title="Cyberlife | 赛博"
         description="真人版赛博朋克视频创作"
         buttonText="查看项目"
-        buttonLink="/projects/Cyberlife"
+        buttonLink="/404"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
